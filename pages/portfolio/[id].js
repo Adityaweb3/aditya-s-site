@@ -8,9 +8,7 @@ import reactnews from "../../public/assets/portfolio/reactnews.jpg";
 // import news2 from "../../public/assets/portfolio/news2.jpg";
 import dancing from "../../public/assets/portfolio/dancing.webp";
 import nextseries from "../../public/assets/portfolio/nextseries.jpg";
-import textconvert from "../../public/assets/portfolio/textconvert.jpg";
-import Baked from "../../public/assets/portfolio/Baked.jpg";
-import TailBoot from "../../public/assets/portfolio/TailBoot.jpg";
+
 
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineCaretRight } from "react-icons/ai";
