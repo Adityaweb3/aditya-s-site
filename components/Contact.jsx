@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 // import contactus from "../public/assets/contact-us.jpg";
 import spotify from "../public/assets/spotify.gif";
-import { FaFacebook, FaGithub, FaTwitter, FaLinkedin, FaSpotify, FaInstagram } from "react-icons/fa";
+import { FaDribbble, FaGithub, FaTwitter, FaLinkedin, FaSpotify, FaInstagram } from "react-icons/fa";
 
 
 const Contact = () => {
@@ -38,26 +38,26 @@ const Contact = () => {
 
             <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
               {/* linkedin */}
-              <Link href="https://www.linkedin.com/in/monu-kumar-3364a5209">
+              <Link href="https://www.linkedin.com/in/aditya-k-pandey-7031031aa/">
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-red-500 hover:scale-105 duration-200 p-3 cursor-pointer">
                   <FaLinkedin className="text-white" size={25} />
                 </div>
               </Link>
 
               {/* twitter */}
-              <Link href="https://twitter.com/MonuKum18058697">
+              <Link href="https://www.instagram.com/aditya.ethx/">
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-red-500 hover:scale-105 duration-200 p-3 cursor-pointer">
-                  <FaTwitter className="text-white" size={25} />
+                  <FaInstagram className="text-white" size={25} />
                 </div>
               </Link>
               {/* facebook */}
-              <Link href="https://www.facebook.com/profile.php?id=100024729394773">
+              <Link href="https://dribbble.com/aditya_112">
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-red-500 hover:scale-105 duration-200 p-3 cursor-pointer">
-                  <FaFacebook className="text-white" size={25} />
+                  <FaDribbble className="text-white" size={25} />
                 </div>
               </Link>
               {/* github */}
-              <Link href="https://github.com/MONU8OO8">
+              <Link href="https://github.com/Adityaweb3">
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-red-500 hover:scale-105 duration-200 p-3 cursor-pointer">
                   <FaGithub className="text-white" size={25} />
 
@@ -71,9 +71,9 @@ const Contact = () => {
                 </div>
               </Link>
               {/* instagram */}
-              <Link href="https://www.instagram.com/m0nukumarr/">
+              <Link href="#">
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-red-500 hover:scale-105 duration-200 p-3 cursor-pointer">
-                  <FaInstagram className="text-white" size={25} />
+                  <FaTwitter className="text-white" size={25} />
                 </div>
               </Link>
             </div>
@@ -84,7 +84,7 @@ const Contact = () => {
           <div className="w-full md:w-1/2 h-full rounded-xl p-4">
             <div className="p-4 text-left">
               <form
-                action="https://getform.io/f/f89700c4-2d47-4651-9471-5d495d185693"
+                action="https://getform.io/f/3ead935c-e8f1-4277-86c3-81211c102d3f"
                 method="POST"
                 id="checkIt" type="text" >
                 <div className="block gap-4 w-full py-2">

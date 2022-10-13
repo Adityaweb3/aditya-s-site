@@ -15,7 +15,7 @@ const HomePage = () => {
 
         <h5 className="uppercase font-bold mt-4">
           <span className="text-white md:text-xl  text-xs">
-            Hello, I{"'"}M <span className="text-red-500">Monu Kumar</span>
+           Hola , I'm <span className="text-red-500">Aditya K Pandey</span>
           </span>
           <div className="flex justify-center items-center mt-4 w-full">
             <span className="font-bold font-sans text-white text-sm md:text-3xl text-left mb-5">
@@ -25,13 +25,13 @@ const HomePage = () => {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Full Stack Dev 😤",
+                    "Blockchain Developer",
                     1000,
-                    "Enthusiastic for web3🌐",
+                    "Machine Learning",
                     1000,
-                    "MERN Stack Dev 🎶",
+                    "Flutter Developer ",
                     1000,
-                    "Gamer 😎",
+                    "Entrepreneurial Mindset",
                     1000,
                   ]}
                 />
@@ -43,7 +43,7 @@ const HomePage = () => {
         </h5>
 
         <p className="text-white md:text-xl text-xs mx-auto">
-          building applications with front and back end operations.
+          A passionate Blockchain Developer from India ;
         </p>
 
         <Link href="/#About">

@@ -21,60 +21,44 @@ import Image from "next/image";
 const portfolios = [
   {
     id: 1,
-    title: "react News app",
+    title: "Skill - Verify Dapp",
     imageSrc: reactnews,
     //   imageSrc1: reactnews,
     url: "react-News",
   },
   {
     id: 2,
-    title: "weather forecast",
+    title: "Backed Fund",
     imageSrc: weather,
     //   imageSrc1: todolist,
     url: "weather",
   },
   {
     id: 3,
-    title: "next js app",
+    title: "Funding DAO",
     imageSrc: nextjs,
     url: "use-state-hook",
   },
   {
     id: 4,
-    title: "DSA problems",
+    title: "Wagmi Name Service",
     imageSrc: dsa,
     url: "dsa files",
   },
   {
     id: 5,
-    title: "dancing website",
+    title: "Weather App Using Flutter",
     imageSrc: dancing,
     url: "react-parallax",
   },
   {
     id: 6,
-    title: "Nextjs Series Blog",
+    title: "NFT Marketplace On Solana",
     imageSrc: nextseries,
     url: "blog site",
   },
-  {
-    id: 7,
-    title: "TextConverter",
-    imageSrc: textconvert,
-    url: "text-converter",
-  },
-  {
-    id: 8,
-    title: "Wake & Baked",
-    imageSrc: Baked,
-    url: "late night food",
-  },
-  {
-    id: 9,
-    title: "BootTail website",
-    imageSrc: TailBoot,
-    url: "BootTail websites",
-  },
+  
+  
 ];
 
 
@@ -143,7 +127,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
             </div>
           </Link>
 
-          <Link href="https://github.com/MONU8OO8">
+          <Link href="https://github.com/Adityaweb3">
             <div className="group flex items-center justify-center my-8 bg-red-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               my portfolio
               <span className="duration-200 ease-in">

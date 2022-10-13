@@ -6,9 +6,7 @@ import weather from "../../public/assets/portfolio/weather.webp";
 import reactnews from "../../public/assets/portfolio/reactnews.jpg";
 import dancing from "../../public/assets/portfolio/dancing.webp";
 import nextseries from "../../public/assets/portfolio/nextseries.jpg";
-import textconvert from "../../public/assets/portfolio/textconvert.jpg";
-import Baked from "../../public/assets/portfolio/Baked.jpg";
-import TailBoot from "../../public/assets/portfolio/TailBoot.jpg";
+
 import { MdExpandMore } from "react-icons/md";
 import { BiChevronLeft } from "react-icons/bi";
 import Link from "next/link";
@@ -18,58 +16,42 @@ export const getStaticProps = async () => {
     const portfolios = [
         {
             id: 1,
-            title: "react News app",
+            title: "Skill - Verify Dapp",
             imageSrc: reactnews,
             url: "react-News",
         },
         {
             id: 2,
-            title: "weather forecast",
+            title: "Backed Fund",
             imageSrc: weather,
             url: "weather",
         },
         {
             id: 3,
-            title: "next js app",
+            title: "Funding DAO",
             imageSrc: nextjs,
             url: "use-state-hook",
         },
         {
             id: 4,
-            title: "DSA problems",
+            title: "Wagmi Name Service",
             imageSrc: dsa,
             url: "dsa files",
         },
         {
             id: 5,
-            title: "dancing website",
+            title: "Weather App Using Flutter",
             imageSrc: dancing,
             url: "react-parallax",
         },
         {
             id: 6,
-            title: "Nextjs Series Blog",
+            title: "NFT Marketplace On Solana",
             imageSrc: nextseries,
             url: "blog site",
         },
-        {
-            id: 7,
-            title: "TextConverter",
-            imageSrc: textconvert,
-            url: "text-converter",
-        },
-        {
-            id: 8,
-            title: "Wake & Baked",
-            imageSrc: Baked,
-            url: "late night food",
-        },
-        {
-            id: 9,
-            title: "BootTail website",
-            imageSrc: TailBoot,
-            url: "BootTail websites",
-        },
+        
+       
     ];
 
 

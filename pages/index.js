@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <div>
         <Head>
-          <title>Monu{"'"}s-Personal-Website</title>
+          <title>Adityaweb3</title>
           <link rel="icon" href="/assets/heroimage.JPG" />
         </Head>
         {/* <Script src=

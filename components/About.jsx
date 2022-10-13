@@ -23,36 +23,73 @@ const About = () => {
 
           <div className="mt-10 pb-10">
             <p className="py-4 max-w-2xl md:text-base text-xs mx-auto">
-              Full stack web developer with background knowledge of MERN stacks, along with a knack of building applications with tailwind.
+            Hi, I am Aditya, A full-stack Blockchain Developer. I consider that my code speaks for itself, so have a
+look at my GitHub !! . Other than being a developer  Love to talk about business , Entrepreneurship .  Building something to help our society .  
             </p>
             <div className="py-4 max-w-2xl md:text-base text-xs p-2 text-left mx-auto">
 
-              🔴 Full Stack web development
+              🔴 Blockchain Developer
               <br />
-              🔴 Interactive Front End as per the design
+              🔴 Machine Learning
               <br />
-              🔴 React and Next js
+              🔴 Flutter Developer
               <br />
-              🔴 Data Structures and Algorithms
+              🔴 UI/UX Designer
 
             </div>
 
             <div className="flex flex-col py-4 max-w-2xl mx-auto ">
               <h3 className="flex text-red-500 text-lg"> <HiAcademicCap className="text-2xl my-1 mr-2" />  Education </h3>
               <p className="text-red-500 md:text-base text-xs text-left">Indian Institute of Information Technology, Dharwad.</p>
-              <p className="text-left md:text-base text-xs">Bachelor of engineering in Electronics and Communication Engineering.</p>
+              <p className="text-left md:text-base text-xs">Bachelor of Technology (2020 - 2024) .</p>
             </div>
 
             <div className="flex flex-col py-4 max-w-2xl mx-auto ">
-              <h3 className="flex text-red-500 text-lg"> <BiMusic className="text-2xl my-1 mr-2" />  Interests </h3>
-              <p className="text-red-500 md:text-base text-xs text-left">Music</p>
-              <p className="text-left md:text-base text-xs">Listening music is something i can never compromise with, Spotify pop songs charts is at times the best stress reliever.</p>
+              <h3 className="flex text-red-500 text-lg">  🚀 Experience </h3>
+              <br></br>
+              <p className="text-red-500 md:text-base text-xs text-left">Blockchain Developer at Backed.fund (Oct 2022 - Present)</p>
+              <p className="text-left md:text-base text-xs">Backed is a next-gen Web3 platform that acts as a bridge between web2 and web3 that allows users to invest in asset-backed NFTs. The asset class includes Fine wine, Fine rum, Fine art, Collectibles, Watches, Antiques, Coins, Stamps, Real Estate, Celebrity items etc.</p>
+              <br></br>
+              <p className="text-red-500 md:text-base text-xs text-left">Blockchain Developer at Velozity Global Solutions (September 2022 - Present)</p>
+              <p className="text-left md:text-base text-xs"> Interpret client requirements to the blockchain architect and lead smart contracts
+development. Develop features and augmentations in a stable, tested, and efficient way
+Develop Solidity code engineering on client platforms
+</p>
+<br></br>
+<p className="text-red-500 md:text-base text-xs text-left">Blockchain Developer at CentreLocus (June 2022 - September 2022)</p>
+              <p className="text-left md:text-base text-xs">Built a Nft Sell Site for a medicine company , Understanding architecture of DAPPS on various Blockchains e.g. ERC, TRON, EOS, Algorand.</p>
+              <br></br>
+              <p className="text-red-500 md:text-base text-xs text-left">Blockchain Developer at Lepto India (June 2022 - November 2022)</p>
+              <p className="text-left md:text-base text-xs">Mentored Students as Blockchain Mentor At Lepto India</p>
+
+
+
             </div>
 
             <div className="flex flex-col py-4 max-w-2xl mx-auto ">
-              <h3 className="flex text-red-500 text-lg"> <Gi3DGlasses className="text-2xl my-1 mr-2" />  Interests </h3>
-              <p className="text-red-500 md:text-base text-xs text-left">Gamer</p>
-              <p className="text-left md:text-base text-xs">I like playing video games.</p>
+              <h3 className="flex text-red-500 text-lg">   🐱‍👤Certifications </h3>
+              <p className="text-red-500 md:text-base text-xs text-left">IBM Blockchain Essentials</p>
+              <p className="text-left md:text-base text-xs"> Link : https://courses.cognitiveclass.ai/certificates/755f60ddb97241bb9b022d160012d28e</p>
+              <br></br>
+              <p className="text-red-500 md:text-base text-xs text-left">Python ( HackerRank)</p>
+              <p className="text-left md:text-base text-xs"> Link : https://www.hackerrank.com/certificates/f7429c5703bf</p>
+              <br></br>
+              <p className="text-red-500 md:text-base text-xs text-left">Smart India Hackathon 2022 Finallist</p>
+              <br></br>
+              <p className="text-red-500 md:text-base text-xs text-left">Smart Contracts (Coursera)</p>
+              <br></br>
+              <p className="text-red-500 md:text-base text-xs text-left">Intermediate Machine Learning ( Kaggle) </p>
+              <p className="text-left md:text-base text-xs"> Link : https://www.kaggle.com/learn/certification/aditya2003/intermediate-machine-learning</p>
+              <br></br>
+              <p className="text-red-500 md:text-base text-xs text-left">Design Thinking ( Simplilearn) </p>
+              <br></br>
+              <p className="text-red-500 md:text-base text-xs text-left">Cyber Security Essentials ( Cisco) </p>
+              <p className="text-left md:text-base text-xs"> Link : https://www.linkedin.com/feed/update/urn:li:activity:6814985862087012352/</p>
+              <br></br>
+              <p className="text-red-500 md:text-base text-xs text-left">Non Fungible Tokens  </p>
+              <p className="text-left md:text-base text-xs"> See on Opensea : https://opensea.io/assets/matic/0x4bcc6e2E278551Bc8b40902f453A02d59434A6E8/1093</p>
+
+              
             </div>
           </div>
 

@@ -18,12 +18,12 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      title: "HTML",
+      title: "Blockchain",
       src: html,
     },
     {
       id: 2,
-      title: "CSS",
+      title: "Solidity",
       src: css,
     },
     {
@@ -38,17 +38,17 @@ const Experience = () => {
     },
     {
       id: 5,
-      title: "Next JS",
+      title: "Machine Leaning",
       src: nextjs,
     },
     {
       id: 6,
-      title: "Tailwind",
+      title: "Flutter",
       src: tailwind,
     },
     {
       id: 7,
-      title: "Mongo DB",
+      title: "Python",
       src: mongodb,
     },
     {
@@ -58,7 +58,7 @@ const Experience = () => {
     },
     {
       id: 9,
-      title: "Express",
+      title: "Web3.js",
       src: express,
     },
     {
@@ -68,12 +68,12 @@ const Experience = () => {
     },
     {
       id: 11,
-      title: "Python",
+      title: "DEFI",
       src: python,
     },
     {
       id: 12,
-      title: "Gamer",
+      title: "NFT Development",
       src: gamer,
     },
   ];
@@ -86,7 +86,7 @@ const Experience = () => {
             experience
           </h2>
           <p className="py-4 max-w-2xl">
-            Development, Coding and Gaming
+            Living In Web3 Space 
           </p>
         </div>
 

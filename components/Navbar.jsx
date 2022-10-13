@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import {
   FaBars,
   FaTimes,
-  FaFacebook,
+  FaDribbble,
   FaGithub,
   FaTwitter,
   FaLinkedin,
@@ -57,7 +57,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full max-w-screen-xl mx-auto p-4">
         <Link href="/#home">
           <h1 className="text-3xl lg:text-4xl font-bold uppercase tracking-wider cursor-pointer">
-            MONU
+            Aadi
           </h1>
         </Link>
 
@@ -104,7 +104,7 @@ const Navbar = () => {
                   onClick={() => setNavigation(false)}
                   className="text-2xl font-bold uppercase tracking-wider cursor-pointer"
                 >
-                  MONU
+                  Aadi
                 </h2>
               </Link>
               <div
@@ -132,33 +132,27 @@ const Navbar = () => {
 
             <div>
               <div className="grid grid-cols-3 mx-auto w-full gap-3">
-                <Link href="https://www.linkedin.com/in/monu-kumar-3364a5209">
+                <Link href="https://www.linkedin.com/in/aditya-k-pandey-7031031aa/">
                   <div className="flex items-center justify-center rounded-full shadow-md shadow-red-500 p-2 cursor-pointer">
                     <FaLinkedin size={20} />
                   </div>
                 </Link>
 
-                <Link href="https://twitter.com/MonuKum18058697">
-                  <div className="flex items-center justify-center rounded-full shadow-md shadow-red-500 p-2 cursor-pointer">
-                    <FaTwitter size={20} />
-                  </div>
-                </Link>
-
-                <Link href="https://www.facebook.com/profile.php?id=100024729394773">
-                  <div className="flex items-center justify-center rounded-full shadow-md shadow-red-500 p-2 cursor-pointer">
-                    <FaFacebook size={20} />
-                  </div>
-                </Link>
-
-                <Link href="https://github.com/MONU8OO8">
-                  <div className="flex items-center justify-center rounded-full shadow-md shadow-red-500 p-2 cursor-pointer">
-                    <FaGithub className="text-white" size={20} />
-                  </div>
-                </Link>
-
-                <Link href="https://www.instagram.com/m0nukumarr/">
+                <Link href="https://www.instagram.com/aditya.ethx/">
                   <div className="flex items-center justify-center rounded-full shadow-md shadow-red-500 p-2 cursor-pointer">
                     <FaInstagram className="text-white" size={20} />
+                  </div>
+                </Link>
+
+                <Link href="https://dribbble.com/aditya_112">
+                  <div className="flex items-center justify-center rounded-full shadow-md shadow-red-500 p-2 cursor-pointer">
+                    <FaDribbble size={20} />
+                  </div>
+                </Link>
+
+                <Link href="https://github.com/Adityaweb3">
+                  <div className="flex items-center justify-center rounded-full shadow-md shadow-red-500 p-2 cursor-pointer">
+                    <FaGithub className="text-white" size={20} />
                   </div>
                 </Link>
 
